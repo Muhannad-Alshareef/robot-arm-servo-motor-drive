@@ -10,4 +10,4 @@ Components used:\
 5 10k potentiometer\
 5 1k resistors\
 5 10k resistors\
-1 slide switch\
+1 slide switch

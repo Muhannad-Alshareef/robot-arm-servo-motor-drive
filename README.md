@@ -5,9 +5,9 @@ The switch used can be replaced with a signal coming from a wireless unit to pow
 
 
 Components used:\
-1 Arduino Uno
-5 IRFZ44N 
-5 10k potentiometer
-5 1k resistors
-5 10k resistors
-1 slide switch
+1 Arduino Uno\
+5 IRFZ44N \
+5 10k potentiometer\
+5 1k resistors\
+5 10k resistors\
+1 slide switch\

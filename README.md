@@ -11,3 +11,6 @@ Components used:\
 5 1k resistors\
 5 10k resistors\
 1 slide switch
+
+
+NOTE: an external battery should be used.

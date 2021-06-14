@@ -14,3 +14,5 @@ Components used:\
 
 
 NOTE: an external battery should be used.
+
+NOTE2: the mosfets can be switched in parallel with one signal pin if indivitual switching is not desired.

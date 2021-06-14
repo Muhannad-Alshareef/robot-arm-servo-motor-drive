@@ -40,6 +40,13 @@ void setup() {
   pinMode(ElbowSW,OUTPUT);
   pinMode(WristSW,OUTPUT);
   pinMode(GripperSW,OUTPUT);
+  
+  //----initialize at 90 degrees--------
+  Base.write(90);
+  Shoulder.write(90);
+  Elbow.write(90);
+  Wrist.write(90);
+  Gripper.write(90);
 }
 
 void loop() {

@@ -6,15 +6,15 @@ Servo Elbow;
 Servo Wrist;
 Servo Gripper; 
 
-int BasePot = 0;  // analog pin used to connect the potentiometer
+int BasePot = 5;  // analog pin used to connect the potentiometer
 int BaseVal;    // variable to read the value from the analog pin
-int ShoulderPot = 1;
+int ShoulderPot = 4;
 int ShoulderVal; 
-int ElbowPot = 2;
+int ElbowPot = 3;
 int ElbowVal;
-int WristPot = 3;
+int WristPot = 2;
 int WristVal;
-int GripperPot = 4;
+int GripperPot = 1;
 int GripperVal;
 
 //-----electronic switching for the servo-motors-----
@@ -47,6 +47,7 @@ void setup() {
   Elbow.write(90);
   Wrist.write(90);
   Gripper.write(90);
+  delay(2000);
 }
 
 void loop() {

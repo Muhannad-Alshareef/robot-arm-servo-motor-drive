@@ -41,6 +41,13 @@ void setup() {
   pinMode(WristSW,OUTPUT);
   pinMode(GripperSW,OUTPUT);
   
+  //---turn the mosfets on-------
+  digitalWrite(BaseSW,HIGH);
+  digitalWrite(ShoulderSW,HIGH);
+  digitalWrite(ElbowSW,HIGH);
+  digitalWrite(WristSW,HIGH);
+  digitalWrite(GripperSW,HIGH);
+  
   //----initialize at 90 degrees--------
   Base.write(90);
   Shoulder.write(90);
